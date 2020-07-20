@@ -17,3 +17,6 @@ function mathOpertaion (arg1, arg2, operation) {
 
 const result = mathOpertaion(5,6,'+')
 console.log(result)
+
+
+console.log("!")
