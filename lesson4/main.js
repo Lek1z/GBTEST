@@ -25,7 +25,6 @@ for (let i = -999; i <= 9; console.log(i++)) {
   }
 }
 
-
 const arr = [1, 2, 3, 4, 5, 3];
 
 const result = arr.reduce(function (accum, currentValue, index, arr) {
