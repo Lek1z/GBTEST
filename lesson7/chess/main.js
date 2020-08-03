@@ -26,3 +26,21 @@ for (let i = 0; i < N + 1; i++) {
   }
   field.appendChild(row)
 }
+
+const instances = []
+
+class O {
+  constructor () {
+    instances.push(this)
+  }
+}
+
+const o1 = new O()
+const o1 = new O()
+const o1 = new O()
+const o1 = new O()
+const o1 = new O()
+
+instances.forEach(el => {
+
+})
