@@ -45,12 +45,29 @@ class Task {
   }
 }
 
-const form = document.querySelector('form')
-form.addEventListener('submit', function () {
-  event.preventDefault()
+// const form = document.querySelector('form')
+// form.addEventListener('submit', function () {
+//   // event.preventDefault()
   
-  const input = this.querySelector('input')
-  new Task(input.value)
+//   const input = this.querySelector('input')
+//   new Task(input.value)
 
-  input.value = ''
-})
+//   input.value = ''
+// })
+
+for (let i = 0; i <= 8; i++) {
+  if (i === 0) {
+    console.log('ABC')
+  }
+  for (let j = 0; j <= 8; j++) {
+    if (j === 0) {
+      console.log(j)
+    }
+  }
+}
+
+classList.add('1')
+classList.add('2')
+classList.add('3')
+classList.add('4')
+classList.add('5')
